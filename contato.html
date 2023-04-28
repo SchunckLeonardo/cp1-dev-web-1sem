@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinhacity - Contato</title>
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./assets/styles/header.css">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/listaVinhos.css">
+    <link rel="stylesheet" href="./assets/styles/contato.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/0c37c00463.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="header-page">
+        <h2><a href="index.html">Vinha<span>City</span></a></h2>
+
+        <nav class="header-menu">
+            <ul class="menu-navegacao">
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+            <ul class="icones">
+                <li><i class="fa-solid fa-circle laranja"></i></li>
+                <li><i class="fa-solid fa-circle branco"></i></li>
+                <li><i class="fa-solid fa-circle preto"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section-page">
+        <section class="container">
+            <h2 class="titulo-pagina">Contato</h2>
+
+            <form class="formulario">
+                <label for="nome">Nome</label>
+                <input data-nome class="contato" type="text" placeholder="Digite o seu nome">
+                <label for="telefone">Telefone</label>
+                <input data-num class="contato" type="text" placeholder="Digite o seu telefone">
+                <label for="email">E-mail</label>
+                <input data-email class="contato" type="text" placeholder="Digite o seu email">
+                <button class="botao-contato">Enviar</button>
+                <div class="verificar-contato"></div>
+            </form>
+        </section>
+    </section>
+
+    <script src="./assets/script/trocarCor.js"></script>
+    <script src="./assets/script/contato.js"></script>
+</body>
+
+</html>
