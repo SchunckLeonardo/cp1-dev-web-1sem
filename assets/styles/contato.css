@@ -1,0 +1,48 @@
+.section-page .container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10%;
+    border: 2px solid transparent;
+    padding: 5em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #fff;
+}
+
+.section-page form input {
+    margin-bottom: 15px;
+    padding: .3em;
+    width: 100%;
+    border: 1px solid #D81E5B;
+    border-radius: 20px;
+}
+
+.section-page form button {
+    width: 70%;
+    line-height: 2em;
+    border: 1px solid #D81E5B;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.section-page form button:hover {
+    background-color: #D81E5B;
+    color: #fff;
+}
+
+.verificar-contato .erro {
+    color: #D81E5B;
+    margin-top: 15px;
+}
+
+.verificar-contato .erro::after {
+    content: "!!!";
+}
+
+.verificar-contato .certo {
+    color: #5EEB5B;
+    margin-top: 15px;
+}
