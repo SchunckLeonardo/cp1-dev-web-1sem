@@ -1,0 +1,72 @@
+.section-page {
+    width: 100%;
+    height: 80vh;
+}
+
+.section-page .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section-page h2 {
+    margin-bottom: 50px;
+    font-size: 2.5em;
+}
+
+.lista-vinhos {
+    display: flex;
+}
+
+.lista-vinhos li {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-vinhos li div {
+    width: 80%;
+    height: 100%;
+    padding: 1.4em;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.lista-vinhos li h3 {
+    margin-bottom: 15px;
+    min-height: 50px;
+}
+
+.lista-vinhos div img {
+    width: 100%;
+}
+
+.lista-vinhos div p {
+    font-size: 2em;
+    color: #D81E5B;
+    margin-top: 15px;
+}
+
+.lista-vinhos div p::before {
+    content: 'R$';
+}
+
+.lista-vinhos div button {
+    width: 100%;
+    height: 3em;
+    background-color: #fff;
+    border: 2px solid #D81E5B;
+    border-radius: 20px;
+    margin-top: 15px;
+    transition: .3s;
+}
+
+.lista-vinhos div button:hover {
+    background-color: #D81E5B;
+    border: 2px solid transparent;
+    color: #fff;
+    cursor: pointer;
+}
