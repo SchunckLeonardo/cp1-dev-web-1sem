@@ -1,0 +1,11 @@
+.respostas p::before {
+    content: "R: ";
+    color: #044389;
+    font-size: 20px;
+}
+
+.respostas p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
